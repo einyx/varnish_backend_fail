@@ -136,7 +136,6 @@ if __name__ == '__main__':
     	for d in descriptors:
  		back_fail = ('%f') % d['call_back'](d['name']) 
 		i= i+1
-		print (back_fail)
 		time.sleep(6)
 		if i == 3:
 			if back_fail >= alert:
